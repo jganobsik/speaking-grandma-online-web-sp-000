@@ -1,9 +1,11 @@
 # Write a speak_to_grandma method.
-
+def speak_to_grandma(phrase)
+  is_caps = phrase.match(/[A-Z, /,,/.,/!,/?] */)
+  
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
-
+if phrase 
 # If you shout, she can hear you (or at least she thinks so) 
 # and yells back
 
